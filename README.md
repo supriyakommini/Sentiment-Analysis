@@ -18,7 +18,7 @@ By integrating **machine learning (ML)** and **deep learning (DL)** techniques a
 
 ---
 
-## 🛠Technologies & Libraries Used
+## Technologies & Libraries Used
 
 - **Languages & Frameworks**: Python, Jupyter Notebook, TensorFlow/Keras
 - **Computer Vision**: OpenCV, MediaPipe
@@ -90,28 +90,6 @@ By integrating **machine learning (ML)** and **deep learning (DL)** techniques a
 | **Facial** | Random Forest     | ~55.0%   |
 
 ---
-
-## 📁 Project Structure
-
-Multimodal-Emotion-Recognition/
-├── text_model/
-│   ├── text_preprocessing.ipynb
-│   ├── tfidf_model.ipynb
-│   └── word2vec_model.ipynb
-├── audio_model/
-│   ├── mfcc_feature_extraction.ipynb
-│   └── cnn_audio_classifier.ipynb
-├── face_model/
-│   ├── mediapipe_landmarks.ipynb
-│   ├── facial_emotion_rf.ipynb
-│   └── webcam_prediction.py
-├── data/
-│   ├── text/
-│   ├── audio/
-│   └── facial/
-├── requirements.txt
-└── README.md
-
 
 ### Running the Models
 
