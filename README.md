@@ -93,3 +93,59 @@ By integrating **machine learning (ML)** and **deep learning (DL)** techniques a
 
 ## 📁 Project Structure
 
+Multimodal-Emotion-Recognition/
+├── text_model/
+│   ├── text_preprocessing.ipynb
+│   ├── tfidf_model.ipynb
+│   └── word2vec_model.ipynb
+├── audio_model/
+│   ├── mfcc_feature_extraction.ipynb
+│   └── cnn_audio_classifier.ipynb
+├── face_model/
+│   ├── mediapipe_landmarks.ipynb
+│   ├── facial_emotion_rf.ipynb
+│   └── webcam_prediction.py
+├── data/
+│   ├── text/
+│   ├── audio/
+│   └── facial/
+├── requirements.txt
+└── README.md
+
+
+### Running the Models
+
+- **Text Classification**:  
+  Open and run:  
+  `text_model/text_preprocessing.ipynb`  
+  `text_model/tfidf_model.ipynb`
+
+- **Speech Emotion Detection**:  
+  Run:  
+  `audio_model/mfcc_feature_extraction.ipynb`  
+  `audio_model/cnn_audio_classifier.ipynb`
+
+- **Facial Emotion Recognition (Real-Time)**:  
+  Make sure your webcam is enabled and run:  
+
+
+## Future Work
+
+- Integrate transformer-based models such as BERT for improved text emotion analysis  
+- Improve model generalization using larger and more diverse datasets  
+- Build a unified API or GUI integrating all three modalities  
+- Explore advanced multimodal fusion strategies  
+
+## Team & Credits
+
+- K Supriya  
+- Shrinandh N H  
+- Smrithi Warrier  
+
+### Acknowledgment
+
+Special thanks to faculty guide **Dr. Manju Venugopalan** for her guidance and support throughout the project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
