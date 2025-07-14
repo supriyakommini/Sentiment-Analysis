@@ -1,4 +1,4 @@
-# 🎭 Multimodal Emotion Recognition System
+# Multimodal Emotion Recognition System
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Abstract
+## Abstract
 
 The **Multimodal Emotion Recognition System** aims to create a robust and accurate pipeline that recognizes human emotions by leveraging **three data modalities**:  
 1. **Text** (sentiment analysis),  
@@ -18,7 +18,7 @@ By integrating **machine learning (ML)** and **deep learning (DL)** techniques a
 
 ---
 
-## 🛠️ Technologies & Libraries Used
+## 🛠Technologies & Libraries Used
 
 - **Languages & Frameworks**: Python, Jupyter Notebook, TensorFlow/Keras
 - **Computer Vision**: OpenCV, MediaPipe
@@ -29,29 +29,29 @@ By integrating **machine learning (ML)** and **deep learning (DL)** techniques a
 
 ---
 
-## 📂 Datasets Used
+## Datasets Used
 
-- **📝 Text**: [Kaggle Emotion NLP Dataset](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp)
+- **Text**: [Kaggle Emotion NLP Dataset](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp)
   - Files: `train.txt`, `test.txt`, `val.txt`
-- **🔊 Speech**: [RAVDESS Emotional Speech Dataset](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
-- **😐 Facial**: [FER-2013 Emotion Recognition Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
+- **Speech**: [RAVDESS Emotional Speech Dataset](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+- **Facial**: [FER-2013 Emotion Recognition Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
-### 📈 Machine Learning Models
+### Machine Learning Models
 - Random Forest
 - Logistic Regression
 - Support Vector Machine (SVM)
 - K-Nearest Neighbors (KNN)
 - Decision Tree
 
-### 🧠 Deep Learning Models
+### Deep Learning Models
 - Convolutional Neural Networks (CNNs)
 - Gradient Boosting (XGBoost, etc.)
 
-### ✅ Evaluation Metrics
+### Evaluation Metrics
 - Accuracy
 - Precision
 - Recall
@@ -60,7 +60,7 @@ By integrating **machine learning (ML)** and **deep learning (DL)** techniques a
 
 ---
 
-## ⚙️ Implementation Overview
+## ⚙Implementation Overview
 
 ### 1. **Text Emotion Recognition**
 - NLP preprocessing: tokenization, stopword removal, lemmatization
